@@ -9,6 +9,7 @@ import {
   TextField,
 } from "@material-ui/core";
 import Hero from "../Components/LandingPage/Hero";
+import Works from "../Components/LandingPage/Works";
 
 const useStyles = makeStyles((theme) => ({
   landing: {
@@ -27,6 +28,9 @@ const LandingPage = () => {
     <Grid container direction='column' className={classes.landing}>
       <Grid item>
         <Hero />
+      </Grid>
+      <Grid item>
+        <Works />
       </Grid>
     </Grid>
   );

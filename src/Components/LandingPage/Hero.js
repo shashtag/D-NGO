@@ -7,6 +7,7 @@ import {
   Button,
   Avatar,
   TextField,
+  Paper,
 } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
@@ -16,7 +17,11 @@ const useStyles = makeStyles((theme) => ({
 const Hero = () => {
   const classes = useStyles();
   const theme = useTheme();
-  return <Grid container item></Grid>;
+  return (
+    <Grid container item>
+      <Paper></Paper>
+    </Grid>
+  );
 };
 
 export default Hero;

@@ -12,6 +12,7 @@ import Hero from "../Components/LandingPage/Hero";
 
 const useStyles = makeStyles((theme) => ({
   landing: {
+    background:
     padding: "0 15px",
     [theme.breakpoints.up("md")]: {
       padding: "0 3.2%",

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { ThemeProvider } from "@material-ui/core";
 import theme from "./UI/Theme";
-import moduleName from "./Pages/LandingPage";
+import LandingPage from "./Pages/LandingPage";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <div className='App'>aaa</div>
         <Switch>
           <Route exact path='/'>
-            <Home />
+            <LandingPage />
           </Route>
           <Route path='/about'>{/* <About /> */}</Route>
           <Route path='/dashboard'>{/* <Dashboard /> */}</Route>

@@ -39,11 +39,7 @@ export default function Navbar() {
 
   return (
     <>
-      <AppBar
-        position='static'
-        style={{
-          borderBottom: `1px solid ${theme.palette.grey[300]}`,
-        }}>
+      <AppBar position='static'>
         <Toolbar
           style={{
             margin: "32px 10.5%",
@@ -58,7 +54,7 @@ export default function Navbar() {
             className={[classes.sectionDesktop, classes.grow].join(" ")}>
             <Button
               component={Link}
-              to='/login'
+              to='/LoginAndSignup'
               // variant='contained'
               size='large'
               color='primary'
@@ -71,7 +67,7 @@ export default function Navbar() {
             </Button>
             <Button
               component={Link}
-              to='/login'
+              to='/LoginAndSignup'
               // variant='contained'
               size='large'
               color='primary'

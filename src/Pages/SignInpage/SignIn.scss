@@ -5,8 +5,7 @@
     // display: flex;
     height: 1000px;
     position: relative;
-    top: -100px;
-    z-index: -10;
+    
     border: black solid;
 }
 
@@ -14,12 +13,13 @@
     height: 526px;
     width: 526px;
     background: white;
-    margin: 249px 0 0 265px;
+    margin: 249px 0 0 262px;
     // border: red solid;
-    z-index: 1;
+    z-index: 100;
     position: absolute;
     top: -20px;
 }
+
 
 .back-box{
     

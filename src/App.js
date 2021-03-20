@@ -7,7 +7,6 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Router>
-        <div className='App'>aaa</div>
         <Switch>
           <Route exact path='/'>
             <LandingPage />

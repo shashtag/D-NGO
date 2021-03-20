@@ -27,6 +27,8 @@ function App() {
           {/* <Route path='/dashboard'><Dashboard /></Route> */}
         </Switch>
       </Router>
+
+
     </ThemeProvider>
   );
 }

@@ -1,0 +1,31 @@
+.log-in{
+    background-image: url('./assets/img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    // display: flex;
+    height: 1000px;
+    position: relative;
+    top: -100px;
+    z-index: -10;
+    border: black solid;
+}
+
+.front-box{
+    height: 526px;
+    width: 526px;
+    background: white;
+    margin: 249px 0 0 265px;
+    // border: red solid;
+    z-index: 1;
+    position: absolute;
+    top: -20px;
+}
+
+.back-box{
+    
+    height: 488px;
+    width: 1040px;
+    background: rgba(224, 224, 224, 0.85);;
+    margin: 249px 0 0 265px;
+    z-index: -2;
+}

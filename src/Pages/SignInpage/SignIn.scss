@@ -6,6 +6,17 @@
     height: 1000px;
     position: relative;
     border: black solid;
+    
+    button {
+        color: whitesmoke;
+        background: rgb(159, 224, 233);
+        border: solid rgb(102, 205, 253);
+        border-radius: 50px;
+        padding: 10px 25px;
+        font-size: 25px;
+        cursor: pointer;
+        outline: none;
+    }
 }
 
 .front-box{
@@ -21,6 +32,18 @@
     
     h1{
          text-align: center;
+    }
+
+    input{
+        width: 352px;
+        height: 55px;
+        border: 1px solid #333333;
+        box-sizing: border-box;
+        border-radius: 40px;
+        margin-left: 86px;
+        margin-top: 22px;
+        font-size: 20px;
+        padding-left: 10px;
     }
 }
 

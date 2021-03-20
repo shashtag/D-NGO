@@ -1,7 +1,8 @@
 # Team Name
+Pota.to
 
 ## Description
-Women have always been the pillar of strength of our society. The genetic response fo the female anatomy makes it more prone to chronic diseases than men. Thirty-eight % of women suffer from one or more chronic diseases, compared to 30 % of men. This issue has to be addressed, which is why we at She-Unit are contributing our best for the cause. We have created a website that will enable women to predict breast cancer with the masurements and will also enlke them to understand basic women health issues.
+Our Idea is Decentralised Crowd Funding Platform with Integrated Polling and Feeds System for our Application. Let us Suppoe the Case, When You want to donate a certain amount for a Cause (let us Suppose Covid-19), In this Particular Case, An Observation was made into the accounting and creditability for Donation through  particular channel which aims to provide Services for the Cause. In Case of Our Country It was observed that no Accounatbility was given by  PM Cares Funds, Which aimed to solve the issue as a mediator for the services being offered and considered as a takeaway from the users.
 
 ## Tech Stack
 

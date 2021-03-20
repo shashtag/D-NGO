@@ -12,6 +12,7 @@ import {
 import Hero from "../Components/LandingPage/Hero";
 import Works from "../Components/LandingPage/Works";
 import DoIt from "../Components/LandingPage/DoIt";
+import Footer from "../Components/Footer";
 
 const useStyles = makeStyles((theme) => ({
   landing: {
@@ -50,6 +51,9 @@ const LandingPage = () => {
           component='div'
           style={{ width: "70%", margin: theme.spacing(2, "auto", 6, "auto") }}
         />
+      </Grid>
+      <Grid item>
+        <Footer />
       </Grid>
     </Grid>
   );

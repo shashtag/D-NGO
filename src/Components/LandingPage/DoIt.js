@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  Grid,
-  makeStyles,
-  Typography,
-  useTheme,
-  Button,
-  Avatar,
-  TextField,
-  Paper,
-} from "@material-ui/core";
+import { Grid, Typography, useTheme } from "@material-ui/core";
 import doIt from "../../Assets/doIt.png";
 
 const DoIt = () => {

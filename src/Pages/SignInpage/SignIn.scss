@@ -5,7 +5,6 @@
     // display: flex;
     height: 1000px;
     position: relative;
-    
     border: black solid;
 }
 
@@ -18,11 +17,15 @@
     z-index: 100;
     position: absolute;
     top: -20px;
+
+    
+    h1{
+         text-align: center;
+    }
 }
 
 
 .back-box{
-    
     height: 488px;
     width: 1040px;
     background: rgba(224, 224, 224, 0.85);;

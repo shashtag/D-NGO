@@ -26,7 +26,7 @@ Our Idea aims to decentralise the process of crowdfunding by using blockchain an
  - Polling on different allocations of resources 
 
 ## Problems we aim to solve
-Increase awareness about the health issues in women and provide basic guidance to women about issues like periods, autoimmune disease, etc.
+Transperency between the mediator and the allocaor of resources and providing general accounts to the users in the network.
 
 ## Screenshots
 ### 
@@ -36,8 +36,14 @@ Increase awareness about the health issues in women and provide basic guidance t
 ### 
 
 ## Challenges we ran into
+ - Providing a good user experience and interface
+ - Decentralising the whole process
+ - Adding publicity such as feeds and polls to the system
 
 
 ## Team Members
 - Muskan Agarwal
-- Shouryan
+- Shouryan Sharma
+- Deepankar Jain
+- Shashwat Gupta
+- Rasswanth

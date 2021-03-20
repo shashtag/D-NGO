@@ -1,27 +1,12 @@
 import React from "react";
-import {
-  Grid,
-  makeStyles,
-  Typography,
-  useTheme,
-  Button,
-  Avatar,
-  TextField,
-  Paper,
-} from "@material-ui/core";
+import { Grid, Typography, useTheme, Button, Paper } from "@material-ui/core";
 import heroImg from "../../Assets/heroImg.png";
 
-const useStyles = makeStyles((theme) => ({
-  hero: { background: theme.palette.grey },
-}));
-
 const Hero = () => {
-  const classes = useStyles();
   const theme = useTheme();
   return (
     <Grid container item>
       <Paper
-        className={classes.hero}
         square
         elevation={12}
         style={{
@@ -68,7 +53,7 @@ const Hero = () => {
           </Grid>
           <Grid container item md={6} justify='flex-end'>
             <Grid item md={10} style={{ paddingBottom: theme.spacing(3) }}>
-              <img src={heroImg} style={{ width: "100%" }} />
+              <img src={heroImg} alt='hero image' style={{ width: "100%" }} />
             </Grid>
           </Grid>
         </Grid>

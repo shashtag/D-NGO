@@ -8,26 +8,25 @@ const Hero = () => {
     <Grid container item>
       <Paper
         square
-        elevation={12}
+        elevation={2}
         style={{
-          width: "100%",
           paddingTop: theme.spacing(10),
           paddingBottom: theme.spacing(10),
-          paddingLeft: theme.spacing(2),
+          paddingLeft: theme.spacing(6),
           background: theme.palette.grey[300],
         }}>
-        <Grid container>
+        <Grid container item spacing={6}>
           <Grid container item md={6} direction='column'>
             <Grid item style={{ paddingTop: theme.spacing(5) }}>
-              <Typography variant='h1'>
+              <Typography variant='h2'>
                 Don’t Worry About{" "}
                 <span style={{ color: theme.palette.secondary.main }}>
                   Donation.
                 </span>
               </Typography>
             </Grid>
-            <Grid item style={{ paddingTop: theme.spacing(3) }}>
-              <Typography variant='h4'>
+            <Grid item style={{ paddingTop: theme.spacing(2) }}>
+              <Typography variant='h5'>
                 Be sure about where your money goes and who uses it.
               </Typography>
             </Grid>
@@ -36,24 +35,29 @@ const Hero = () => {
               justify='center'
               item
               style={{
-                paddingTop: theme.spacing(3),
-                marginTop: theme.spacing(3),
+                paddingTop: theme.spacing(2),
+                marginTop: theme.spacing(2),
               }}>
               <Button
                 variant='contained'
                 color='secondary'
                 style={{
-                  padding: theme.spacing(3, 7),
+                  padding: theme.spacing(1, 5),
                   borderRadius: theme.spacing(2.5),
                 }}
                 justify='center'>
-                <Typography variant='h5'>Get Started {">"}</Typography>
+                <Typography variant='h6'>Get Started {">"}</Typography>
               </Button>
             </Grid>
           </Grid>
-          <Grid container item md={6} justify='flex-end'>
-            <Grid item md={10} style={{ paddingBottom: theme.spacing(3) }}>
-              <img src={heroImg} alt='hero image' style={{ width: "100%" }} />
+          <Grid
+            container
+            item
+            md={6}
+            // justify='flex-start'
+          >
+            <Grid item md={10} style={{ paddingBottom: theme.spacing(2) }}>
+              <img src={heroImg} alt='hero image' style={{ width: "120%" }} />
             </Grid>
           </Grid>
         </Grid>

@@ -17,10 +17,7 @@ import Footer from "../Components/Footer";
 const useStyles = makeStyles((theme) => ({
   landing: {
     background: theme.palette.primary.main,
-    padding: "0 15px",
-    [theme.breakpoints.up("md")]: {
-      padding: "0 3.2%",
-    },
+    padding: "0 12.5%",
   },
 }));
 

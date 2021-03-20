@@ -37,7 +37,6 @@ const Hero = () => {
               <Typography variant='h1'>
                 Don’t Worry About{" "}
                 <span style={{ color: theme.palette.secondary.main }}>
-                  {" "}
                   Donation.
                 </span>
               </Typography>
@@ -46,6 +45,25 @@ const Hero = () => {
               <Typography variant='h4'>
                 Be sure about where your money goes and who uses it.
               </Typography>
+            </Grid>
+            <Grid
+              container
+              justify='center'
+              item
+              style={{
+                paddingTop: theme.spacing(3),
+                marginTop: theme.spacing(3),
+              }}>
+              <Button
+                variant='contained'
+                color='secondary'
+                style={{
+                  padding: theme.spacing(3, 7),
+                  borderRadius: theme.spacing(2.5),
+                }}
+                justify='center'>
+                <Typography variant='h5'>Get Started {">"}</Typography>
+              </Button>
             </Grid>
           </Grid>
           <Grid container item md={6} justify='flex-end'>

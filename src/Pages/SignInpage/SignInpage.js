@@ -15,7 +15,19 @@ const SignInPage = ()=> {
                 <span style={{marginLeft:'800px'}} onClick={()=>{setMove(520)}}>Log in</span>
             </motion.div>
 
-            <motion.div animate={{x:move, }}  className="front-box">
+            <motion.div animate={{x:move }}  className="front-box">
+                <div style={move?{display:'none'}:{display:'inline'}}>
+                    <h1 >Sign In</h1>
+                    <input type='text' placeholder='email'/><br />
+                    <input type='text' placeholder='password'/>
+                </div>
+
+                <div style={move?{display:'inline'}:{display:'none'}}>
+                    <h1 >Sign Up</h1>
+                    <input type='text' placeholder='email'/><br />
+                    <input type='text' placeholder='password'/> <br />
+                    <input type='text' placeholder='confirm password'/>
+                </div>
                 
             </motion.div>
     </div>

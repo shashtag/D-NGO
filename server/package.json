@@ -8,7 +8,7 @@
     "serve": "node -r dotenv/config build/server.js",
     "build": "npm run clean && npm run build-ts",
     "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
-    "watch-node": "nodemon -r dotenv/config build/server.js",
+    "watch-node": "nodemon --delay 5000ms -r dotenv/config build/server.js",
     "clean": "rimraf ./build",
     "build-ts": "tsc",
     "watch-ts": "tsc -w",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/afteracademy/nodejs-backend-architecture-typescript.git"
+    "url": ""
   },
   "author": "AfterAcademy",
   "license": "Apache-2.0",

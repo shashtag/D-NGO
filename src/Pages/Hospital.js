@@ -29,8 +29,11 @@ const Hospital = () => {
             item
             md={6}
             alignItems='center'
-            style={{ paddingLeft: theme.spacing(8) }}>
-            <div>
+            style={{
+              paddingLeft: theme.spacing(8),
+              background: theme.palette.grey[300],
+            }}>
+            <Grid>
               <Typography variant='h6'>You have recieved 20,000 $ </Typography>
               <Typography variant='h6'>
                 This donation was made by John
@@ -38,7 +41,7 @@ const Hospital = () => {
               <Typography variant='h6'>
                 Contact John here : jhon21@gmail.com
               </Typography>
-            </div>
+            </Grid>
           </Grid>
         </Grid>
       </Grid>
@@ -64,7 +67,10 @@ const Hospital = () => {
             item
             md={6}
             alignItems='center'
-            style={{ paddingLeft: theme.spacing(8) }}>
+            style={{
+              paddingLeft: theme.spacing(8),
+              background: theme.palette.grey[300],
+            }}>
             <div>
               <Typography variant='h6'>You have recieved 20,000 $ </Typography>
               <Typography variant='h6'>

@@ -1,5 +1,12 @@
 import React from "react";
-import { Grid, Typography, useTheme, Button, Paper } from "@material-ui/core";
+import {
+  Grid,
+  Typography,
+  useTheme,
+  Button,
+  Paper,
+  TextField,
+} from "@material-ui/core";
 import pbg from "../Assets/pBg.png";
 import Footer from "../Components/Footer";
 
@@ -29,8 +36,30 @@ const Payment = () => {
             item
             md={6}
             alignItems='center'
-            style={{ paddingLeft: theme.spacing(8) }}>
-            dssdsd
+            style={{
+              paddingLeft: theme.spacing(8),
+              background: theme.palette.grey[300],
+            }}>
+            <TextField
+              label='Aadhar Number'
+              placeholder='Placeholder'
+              variant='outlined'
+            />
+            <TextField
+              label='Amount'
+              placeholder='Placeholder'
+              variant='outlined'
+            />
+            <TextField
+              label='Currency'
+              placeholder='Placeholder'
+              variant='outlined'
+            />
+            <TextField
+              label='Bank Account no'
+              placeholder='Placeholder'
+              variant='outlined'
+            />
           </Grid>
         </Grid>
       </Grid>

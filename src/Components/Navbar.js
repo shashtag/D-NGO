@@ -9,8 +9,6 @@ import {
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import Toolbar from "@material-ui/core/Toolbar";
-import ArrowDropDownSharpIcon from "@material-ui/icons/ArrowDropDownSharp";
-import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
 import InputBase from "@material-ui/core/InputBase";
 import RoomOutlinedIcon from "@material-ui/icons/RoomOutlined";
 import logoMain from "../Assets/logoMain.png";

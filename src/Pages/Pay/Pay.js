@@ -1,4 +1,5 @@
 import React from 'react';
+import graph from './Assets/img/graph.svg'
 import './Pay.scss';
 
 const Pay = ()=> {
@@ -13,6 +14,7 @@ const Pay = ()=> {
             <input type="text" placeholder='Type here if chosen option is not given'/>
             <hr />
             <h1>This month's results</h1>
+            <img src={graph}/>
             <hr />
         </div>
     )

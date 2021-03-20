@@ -1,5 +1,4 @@
-# She-Unit
-## Team  Name: girlgeng
+# Team Name
 
 ## Description
 Women have always been the pillar of strength of our society. The genetic response fo the female anatomy makes it more prone to chronic diseases than men. Thirty-eight % of women suffer from one or more chronic diseases, compared to 30 % of men. This issue has to be addressed, which is why we at She-Unit are contributing our best for the cause. We have created a website that will enable women to predict breast cancer with the masurements and will also enlke them to understand basic women health issues.

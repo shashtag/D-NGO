@@ -30,9 +30,18 @@ Transperency between the mediator and the allocaor of resources and providing ge
 
 ## Screenshots
 ### 
-![alt text](https://user-images.githubusercontent.com/59364581/111042115-b77c4180-8461-11eb-867a-5a2d296d8e69.png)
-### 
-![alt text](https://user-images.githubusercontent.com/59364581/111041041-438b6a80-845c-11eb-8fac-4b35cd689b3d.png)
+<p align="center">
+<img src="https://github.com/shashtag/Ganja/blob/master/assets/1.png" alt="Project Screenshots1" width="450px">
+<img src="https://github.com/shashtag/Ganja/blob/master/assets/2.png" alt="Project Screenshots2" width="450px">
+</p>
+
+###
+<p align="center">
+<img src="https://github.com/shashtag/Ganja/blob/master/assets/3.png" alt="Project Screenshots1" width="450px">
+<img src="https://github.com/shashtag/Ganja/blob/master/assets/4.png" alt="Project Screenshots2" width="450px">
+</p>
+
+
 ### 
 
 ## Challenges we ran into

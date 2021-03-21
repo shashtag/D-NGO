@@ -7,6 +7,7 @@ Our Idea is Decentralised Crowd Funding Platform with Integrated Polling and Fee
 Our Idea aims to decentralise the process of crowdfunding by using blockchain and its fundamentals such as smart contracts. Our application will serve on the networks of different blocks being mined for the enrouting of the funds directly to the service provider. As such in this particular case, we will get the information of the various venders the government is dealing with and directly transfer funds maintaining a log in a decentralised network such as Ethereum. As such, with respect to innumerable vendors and to the  allocation of funds, a poll list will be actively monitoring for the trends and needs towards the cause. The users are required to link their Aadhar Card, their application to maintain authenticity. The application provides feeds about the transaction to all the users in the network making realise the sensational transference for the cause and novelity towards the socieity
 
 ## Tech Stack
+ - Figma (https://www.figma.com/file/lvCbBaZIfGUgmDVvZE0b7s/Ganja?node-id=0%3A1)
  - Solidity
  - ReactJS
  - NodeJS
